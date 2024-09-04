@@ -6,6 +6,8 @@ public class Debug {
         //I've already set up a scanner with the name 'sc' for you!
         Scanner sc = new Scanner(System.in);
 
+
+        
         //here's a good working example for you to reference!
         //first: we ask our user for our prompt
         System.out.println("What is your name? ");
