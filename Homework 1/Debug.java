@@ -8,6 +8,8 @@ public class Debug {
 
 
         
+
+        
         //here's a good working example for you to reference!
         //first: we ask our user for our prompt
         System.out.println("What is your name? ");
