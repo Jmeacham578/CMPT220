@@ -6,10 +6,6 @@ public class Debug {
         //I've already set up a scanner with the name 'sc' for you!
         Scanner sc = new Scanner(System.in);
 
-
-        
-
-        
         //here's a good working example for you to reference!
         //first: we ask our user for our prompt
         System.out.println("What is your name? ");
@@ -27,7 +23,7 @@ public class Debug {
         int num1 = 10;
         int num2 = 37;
         //?
-        System.out.println(num1 + num2);
+        System.out.println("The sum of the numbers 10 and 37 is " + (num1 + num2));
         
 
     }
