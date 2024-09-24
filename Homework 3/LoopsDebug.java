@@ -19,10 +19,10 @@ public class LoopsDebug {
         int num = sc.nextInt();
         int fact = 1;
         //here's a hint
-        for (int i = 1; i < num; i++){
+        for (int i = 1; i <= num; i++){
             fact *= i;
         }
-        System.out.println("Factorial of " + num + "=" + fact);
+        System.out.println("Factorial of " + num + " = " + fact);
 
         //DONE
         //P3: Ask the user for a number, and then add together every OTHER digit (starting from 1)
@@ -53,6 +53,8 @@ public class LoopsDebug {
         //P5: Take a string from the user and print them the reverse!
         System.out.println("Problem 5");
         //hint
+
+        sc.nextLine();
         System.out.println("Enter a word: ");
         String original = sc.nextLine();
 
