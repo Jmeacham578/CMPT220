@@ -5,7 +5,7 @@ public class ArrayDebug {
     public static void main(String[] args) {
 
         //Create me an array named "nameArray" that is a string and has 4 values in it, give me 4 names of people or animals you care about
-        String[] nameArray = {"Alyssa","Leo","Moira)","Mike"};
+        String[] nameArray = {"Alyssa","Leo","Moira","Mike"};
         //Create me an array without any values, but it's an integer array named "numArray"
         int[] numArray = {};
         //Create me an int array named "newArray" and set it to have 20 null spaces
