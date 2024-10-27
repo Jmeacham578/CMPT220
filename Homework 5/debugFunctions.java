@@ -12,24 +12,55 @@ I give you two fully working method examples with and without parameters and cal
 */
 
 import java.util.Scanner;
-public class Main {
+public class debugFunctions {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
+    
+    //Problem 2
+    System.out.println("enter # ill fact");
+       int factorial = sc.nextInt();
+       problem2(factorial);
+       System.out.println(problem2(factorial));
 
-    System.out.println("Enter your first number to be added");
-    int firstInput = sc.nextInt();
-    System.out.println("Enter your second number to be added");
-    int secondInput = sc.nextInt();
-    //remember this method is returning, so we need to print it out
-    System.out.println(add(firstInput,secondInput));
+    // Problem 3
+    System.out.println("Enter a number and I will tell you the sum of every other number: ");
+    int sum2 = sc.nextInt();
+    problem3(sum2);
+    System.out.println(problem3(sum2));
 
-    System.out.println("im going to print out the word Dog now.");
-    printDog();
+    sc.nextLine();
+
+    // Problem 5
+    System.out.println("Give me a word and I'll give you the reverse of it: ");
+    String original = sc.nextLine();
+    reverseWord(original);
+    System.out.println(reverseWord(original)); 
+
+    
       
     }
 
-  
+    public static int problem2(int num) {
+        int fact = 1;
+           for (int i = 1; i <= num; i++){
+           fact *= i;
+       }
+       return fact;
+       }
+    
+    public static int problem3(int num2){
+        int sum = 0;
+        for (int i = 1; i < num2; i += 2) {
+            sum = sum + i;
+    }
+    return sum;
+    }  
+
+    public static String reverseWord(String word){
+        return new StringBuilder(word).reverse().toString();
+    }
+
     public static int add(int zyx, int tuv){
 
 
